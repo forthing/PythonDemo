@@ -42,7 +42,6 @@ def cls2dict(in_cls):
         "score": in_cls.score
     }
 
-
 def dict2cls(in_dict):
     return Student(in_dict["name"], in_dict["age"], in_dict["score"])
 
